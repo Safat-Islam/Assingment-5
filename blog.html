@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh</title>
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#B4F461',
+            }
+          }
+        }
+      }
+    </script>
+    
+</head>
+<body>
+    <!-- nav-section -->
+    <div class="nav-part-section top-0 sticky z-10 backdrop-blur-xl">
+      <div class="nav-section sm:ml-0 lg:ml-8 m-auto"></div>
+        <div class="navbar w-11/12 flex items-center justify-between m-auto">
+            <a href="index.html" class="btn btn-ghost text-xl bg-primary px-6 py-2 sm:ml-1 lg:ml-3">Home</a>
+            <h1 class=" font-semibold sm:text-sm lg:text-xl"><span class="w-10 mr-2"><img src="assets/logo.png" alt=""></span>Donate Bangladesh</h1>
+            <div class="amount text-xl font-bold"><span class="w-6 mr-2"><img src="assets/coin.png" alt=""></span><span id="Current-account">150000</span><span class="ml-2">BDT</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="divider"></div>
+    <!-- nav-section -->
+     <!-- blog section -->
+    
+    <div class="blog w-11/12 m-auto">
+        <div class="collapse collapse-arrow mt-5">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is event handling in the context of the DOM?</div>
+            <div class="collapse-content w-10/12">
+              <p>Event handling refers to the process of responding to user interactions with a web page, such as clicks, key presses, or mouse movements. In the DOM, you can attach event listeners to elements using methods like element.addEventListener("event", function), allowing you to define custom actions when an event occurs.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow mt-5">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What is the difference between innerHTML and textContent?</div>
+            <div class="collapse-content w-10/12">
+              <p>innerHTML retrieves or sets the HTML content of an element, allowing you to include HTML tags and formatting. textContent, on the other hand, retrieves or sets the plain text content of an element, stripping out any HTML tags. Using textContent is often safer for preventing XSS attacks, as it treats the content as plain text.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow mt-5">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How can you access an element in the DOM using JavaScript?</div>
+            <div class="collapse-content w-10/12">
+              <ul>
+                <li>document.getElementById("elementId") for accessing an element by its ID.</li>
+                <li>document.getElementsByClassName("className") for elements with a specific class.</li>
+                <li>document.querySelector("selector") for a more versatile way to select elements using CSS selectors.</li>
+              </ul>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow mt-5">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What are JavaScript closures?</div>
+            <div class="collapse-content w-10/12">
+              <p>A closure is a function that retains access to its lexical scope, even when the function is executed outside that scope. This means that a closure can remember the environment in which it was created. Closures are often used to create private variables or to maintain state in asynchronous programming.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow mt-5">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you handle errors in JavaScript?</div>
+            <div class="collapse-content w-10/12">
+              <p>Errors in JavaScript can be handled using try...catch blocks. Code that may throw an error is placed inside the try block, and if an error occurs, the control is passed to the catch block where you can define how to handle the error. Optionally, a finally block can be added, which will execute regardless of whether an error occurred.</p>
+            </div>
+        </div>   
+    </div>
+     <!-- blog section -->
+</body>
+</html>
